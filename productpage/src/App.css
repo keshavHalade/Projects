@@ -1,0 +1,98 @@
+.Topbar{
+  background-color: #282c34;
+  padding: 24px 48px 12px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.Topbar > img{
+  width: 100px;
+  left: 0;
+}
+
+.MainContainer{
+  padding: 4% 12%;
+  margin-top: 80px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ProductImg{
+  width: 50%;
+  /* border-right:2px solid salmon; */
+}
+.ProductImg > img{
+  width: 100%;
+}
+.productDetails{
+  width: 50%;
+}
+.ProductTitle{
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+.ProductDescr{
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.ProductImgSelect{
+  width: 100%;
+  max-width: 80px;
+  display: flex;
+}
+.ProductImgSelect > img{
+  width: 100%;
+  margin-right: 12px;
+  border: 2px solid teal;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.FeatureItem{
+  min-width: 80px;
+  background-color: gainsboro;
+  border-radius: 9px;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  box-sizing: content-box;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.selectedFeature{
+  color: white;
+  background-color: grey;
+}
+.buyButton{
+  color: wheat;
+  background-color:teal;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 24px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.FeatureData{
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 31%;
+  transform: translate(-50%,-50%);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+
